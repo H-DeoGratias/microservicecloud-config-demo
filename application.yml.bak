@@ -1,0 +1,28 @@
+#server:
+#  port: 3344
+#spring:
+#  application:
+#    name: microservicecloud-config
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: https://github.com/wtt-stack/microservicecloud-config-demo.git
+#          username: wtt-stack
+#          password: github1998....
+spring:
+  profiles:
+    active:
+      - dev
+---
+
+
+spring:
+  profiles: dev
+     application:
+    	name: microservicecloud-config-demo-dev
+---
+spring:
+  profiles: test
+      application:
+      	name: microservicecloud-config-demo-test

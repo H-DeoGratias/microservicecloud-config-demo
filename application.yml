@@ -1,15 +1,16 @@
 spring:
-    profiles:
-	active:
-	   - dev
+  profiles:
+    active:
+      - dev
+---
+
+
+spring:
+  profiles: dev
+     application:
+    	name: microservicecloud-config-demo-dev
 ---
 spring:
-     profiles: dev
-     application:
-	name: microservicecloud-config-demo-dev
----
-spring:
-     profiles: test
-     application:
-	name: microservicecloud-config-demo-test
-#保存UTF-8格式
+  profiles: test
+      application:
+      	name: microservicecloud-config-demo-test
