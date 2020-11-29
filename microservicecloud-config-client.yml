@@ -12,7 +12,7 @@ spring:
     name: config-client
 eureka:
   client:
-    service-url:
+    serviceUrl:
       defaultZone: http://eureka-dev.com:7001/eureka/
 ---
 server:
@@ -23,5 +23,5 @@ spring:
       name: config-client
 eureka:
   client:
-    service-url:
+    serviceUrl:
       defaultZone: http://eureka-test.com:7001/eureka/
