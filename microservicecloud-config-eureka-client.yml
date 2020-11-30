@@ -17,6 +17,9 @@ eureka:
     fetch-registry: false
     serviceUrl:
       defaultZone: http://eureka7001.com:7001/eureka/
+security:
+  basic:
+    enabled: false
 ---
 server:
   port: 7001
@@ -32,3 +35,6 @@ eureka:
     fetch-registry: false
     serviceUrl:
       defaultZone: http://eureka7001.com:7001/eureka/
+security:
+  basic:
+    enabled: false
